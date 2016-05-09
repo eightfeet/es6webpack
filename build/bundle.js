@@ -62,6 +62,19 @@
 
 	  console.log('a ' + a, 'b ' + b);
 	};
+	var arr = [1, 2, 3];
+	var obj = { nameb: 'nameb', sex: '0' };
+	var x = arr[0];
+	var y = arr[1];
+	var other = arr.slice(2);
+	var nameb = obj.nameb;
+	var _obj$sex = obj.sex;
+	var sex = _obj$sex === undefined ? 'sex' : _obj$sex;
+
+	console.log(nameb);
+	console.log(x);
+	console.log(other);
+	console.log(sex);
 
 	checkAB(3, 7);
 	checkAB();
